@@ -1,0 +1,54 @@
+
+@media only screen and (max-width: 1152px) {
+    .nav-list {
+      flex-direction: column;
+    }
+    .navbar {
+      flex-direction: column;
+      transition: all 0.7s ease-out;
+      height: 450px;
+    }
+    .box-main {
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+    .burger {
+      display: block;
+    }
+    .height-nav-resp {
+      height: 65px;
+    }
+    .v-class-resp {
+      opacity: 0;
+      
+    }
+    .searchnav{
+        justify-content: center;
+  
+    }
+    .row {
+      flex-direction: column;
+    }
+    .sec {
+      flex-direction: column-reverse;
+    }
+    .text-main .text-content .buttons .thumbnail {
+      text-align: center;
+    }
+    .para2 {
+      padding: 10px 8px 60px 8px;
+      max-width: 90%;
+      text-align: center;
+    }
+    .para {
+      padding: 10px 8px 60px 8px;
+      max-width: 90%;
+      text-align: center;
+    }
+    .thumbnail{
+        text-align: center;
+        padding: 20px 5px 5px 5px;
+  
+    }
+  }
+  

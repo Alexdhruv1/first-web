@@ -1,292 +1,245 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.logo{ 
-    width: 30%;
-    display: flex;
-    justify-content: center;
+.logo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  color: #8b5538;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+}
+/* 
+.logo img {
+  width: 20%;
+  border: 2px solid white;
+} */
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  
+  height: 65px;
 }
 
-.logo img{
-    width: 20%;
-    border: 2px solid white;
+.nav-list {
+  width: 70%;
+  /* background-color: black; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  
 }
 
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top: 0px;
-    
-    
+.nav-list li {
+  list-style: none;
+  padding: 28px 35px;
+  
 }
 
-.nav-list{
-    width: 70%;
-    /* background-color: black; */
-    display: flex;
-    justify-content: left;
-    align-items: center;
-
-
+.nav-list li a {
+  text-decoration: none;
+  color: #8b5538;
 }
 
-
-.nav-list li{  
-    list-style: none;
-    padding: 28px 35px;
-    
+.nav-list li a:hover {
+  /* background-color: lightsalmon; */
+  color: darkgreen;
+}
+.searchnav {
+  display: flex;
+  /* background-color: blueviolet; */
+  width: 30%;
+  align-items: right;
+  /* justify-content: right; */
+  
 }
 
-
-.nav-list li a{
-    text-decoration: none;
-    color: white;
-    
-    
-    
-}
-
-.nav-list li a:hover{
-    /* background-color: lightsalmon; */
-    color: darkgreen;
-    
-}
-.searchnav{
-    display: flex;
-    /* background-color: blueviolet; */
-    width: 30%;
-    align-items: right;
-    /* justify-content: right; */
-}
-
-#search{
-    padding: 5px;
-    border: 1px solid gray;
-    
-}
-
-.background{
-    background: rgba(0, 0, 0, 0.7) url('../images/pencils.jpg');
-    background-size: cover;
-    background-blend-mode: darken;
-}
-
-.box-main{
-    display: flex;
-   align-items: center;
-    justify-content: center;
-    color: seashell;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 80%;
-    margin: auto;
-    height: 75%;
+#search {
+  padding: 5px;
+  border: 1px solid gray;
 
 }
 
-.firstsection{
-    height: 87vh;
+.background {
+  background: rgba(0, 0, 0, 0.7) url("../images/photo-1599619351208-3e6c839d6828.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+  
 }
 
-.first{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.second{ 
-    width: 30%;
-
-}
-.second img{ 
-    width: 90%;
-    padding: 20px 0px;
-    border-radius: 15px;
-    display: block;
-    margin: auto;
-}
-
-.text-main{
-    font-size: 35px;
-
-}
-
-.text-content{
-    font-size: 15px;
-
-}
-
-.btn{
-   
-        padding: 3px 9px;
-        margin: 5px 3px;
-        border: 2px solid white;
-        border-radius: 5px;
-        background: none;
-        color: white;
-        cursor: pointer;
-}
-
-.btn-sm{
-    padding: 4px 7px;
-    margin: 0px 5px;
-    border: 2px solid white;
-    border-radius: 10px;
-    background: none;
-    color: white;
-    cursor: pointer;
-    vertical-align: middle;
-}
-
-.sec{
-    /* height: 370px; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    max-width: 1291px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.sec-left{
-    flex-direction: row-reverse;
-    text-align: right;
-
-}
-
-.para{
-    padding: 90px 20px 90px 190px;
-}
-
-.para2{
-    padding: 90px 190px 90px 20px;
-}
-
-.secsubtag{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.secondsec-image{
-    border-radius: 6px;
-
-}
-
-.sectag{
-    padding: 20px 0px;
-}
-
-.foot{
-    background-color: #08192b;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-}
-.container{
-    /* background-color: indigo; */
-    max-width: 1180px;
-    margin: auto;
-    color: lavender;
-}
-.row{
-    display: flex;
-    padding: 45px;
-
-
-}
-
-.support{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    
-
-}
-
-.suppor-bar{
-    font-size: 20px;
-    padding: 10px 20px 10px 0px;
-}
-#spone{
-    padding: 20px 20px 10px 0px;
-    cursor: pointer;
-    
-}
-#sp{
-    padding: 10px 20px 10px 0px;
-    cursor: pointer;
-
-}
-
-#sponet{
-    padding: 20px 20px 10px 35px;
-    cursor: pointer;
-    
-}
-#spt{
-    padding: 10px 20px 10px 35px;
-    cursor: pointer;
-
-}
-.copyright{
+.box-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: seashell;
+  font-family: "Ubuntu", sans-serif;
+  max-width: 80%;
+  margin: auto;
+  height: 95%;
     text-align: center;
-    
-    color: lavender;
-    font-size: 12px;
-}
-.burger{
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 15px;
-
-
-}
-.line{
-    width: 33px;
-    background-color: white;
-    height: 4px;
-    margin: 5px 3px;
 }
 
-@media only screen and (max-width: 1152px){
-    .nav-list{
-        flex-direction: column;
-    }
-    .navbar{
-        flex-direction:column;
-        transition: all 0.7s ease-out;
-        height: 450px;
 
-    }
-    .box-main{
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-    .burger{
-        display: block;
-    }
-    .height-nav-resp{
-        height: 65px;
-    }
-    .v-class-resp{
-        opacity: 0;
-    }
-    .row{
-        flex-direction: column;
+.firstsection {
+  height: 90vh;
+}
 
-    }
-    .sec{
-        flex-direction: column-reverse;
+.first {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.thumbnail{
+    padding: 60px 130px;
+}
 
-    }
-    .text-main .text-content .buttons .thumbnail{
-        text-align: center;
-    }
-    
-} 
+.second {
+  width: 30%;
+}
+.second img {
+  width: 90%;
+  padding: 20px 0px;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+}
+
+.text-main {
+  font-size: 35px;
+}
+
+.text-content {
+  font-size: 15px;
+}
+
+.btn {
+  padding: 8px 14px;
+  margin: 5px 3px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  background: none;
+  color: white;
+  cursor: pointer;
+  background-color: #8b5538;
+}
+
+
+
+.btn-sm {
+  padding: 4px 7px;
+  margin: 0px 5px;
+  border: 0px solid #8b5538;
+  border-radius: 10px;
+  background: none;
+  color: #8b5538;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.sec {
+  /* height: 370px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1291px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.sec-left {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.para {
+  padding: 90px 20px 90px 190px;
+}
+
+.para2 {
+  padding: 90px 190px 90px 20px;
+}
+
+.secsubtag {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secondsec-image {
+  border-radius: 6px;
+}
+
+.sectag {
+  padding: 20px 0px;
+}
+
+.foot {
+  background-color: #f5e8e1;
+  /* color: #8b5538; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+.container {
+  /* background-color: indigo; */
+  max-width: 1180px;
+  margin: auto;
+  color: #8b5538;
+}
+.row {
+  display: flex;
+  padding: 45px;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.suppor-bar {
+  font-size: 20px;
+  padding: 10px 20px 10px 0px;
+}
+#spone {
+  padding: 20px 20px 10px 0px;
+  cursor: pointer;
+}
+#sp {
+  padding: 10px 20px 10px 0px;
+  cursor: pointer;
+}
+
+#sponet {
+  padding: 20px 20px 10px 35px;
+  cursor: pointer;
+}
+#spt {
+  padding: 10px 20px 10px 35px;
+  cursor: pointer;
+}
+.copyright {
+  text-align: center;
+    background-color: #41281b;
+  color: white;
+  font-size: 12px;
+}
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+}
+.line {
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 3px;
+}
